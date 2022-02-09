@@ -1,1 +1,58 @@
 <!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Exam2.css">
+        <script src="Exam2.js" defer></script>
+        <!--Don't forget the sentence, resources, and assumptions.-->
+    </head>
+    <body>
+        
+        <div id="main-container">
+            <h1>Exam 2</h1>
+            <div id="instructions">
+            <h2>Instructions</h2>
+            <p>Use the cashier's algorithm. Develop a program that randomly selects a total charge. 
+            Then randomly select a payment in dollars and cents that exceeds that charge. 
+            Then have the program calculate the change in pennies, nickels, dimes, quarters, ones, fives, and twenties. 
+            Bonus points for anyone who writes a program that can "Count change back."</p> </div>
+            <div id="register-container">
+            <div class="button"><button id="random-total">Generate Total</button></div>
+            <div id="charge">Total: $</div>
+            <div id="payment">Payment: $<input id="payment-value" type="text" value="">
+                <button id="random-payment">Random Value</button>
+            </div>
+            <div class="button"><button id="calculate">Calculate Change</button></div>
+        </div>
+        </div>
+        <div id="change">
+            <div class="table" id="penny"><img class="coin" src="penny.png">
+                <div id="penny-count" class="counter">x</div>
+            </div>
+            <div class="table" id="nickel"><img class="coin" src="nickel.png">
+                <div id="nickel-count" class="counter">x</div>
+            </div>
+            <div class="table" id="dime"><img class="coin" src="dime.png">
+                <div id="dime-count" class="counter">x</div>
+            </div>
+            <div class="table" id="quarter"><img class="coin" src="quarter.png">
+                <div id="quarter-count" class="counter">x</div>
+            </div>
+            <div class="table" id="dollar"><img class="bill" src="dollar.png">
+                <div id="dollar-count" class="counter">x</div>
+            </div>
+            <div class="table" id="five"><img class="bill" src="five.png">
+                <div id="five-count" class="counter">x</div>
+            </div>
+            <div class="table" id="twenty"><img class="bill" src="twenty.png">
+                <div id="twenty-count" class="counter">x</div>
+            </div>
+            <div id="total" class="table" style="font-size: 3rem; margin-top: 4%">Change: <div id="total-change">$</div></div>
+            
+
+            
+            
+            
+            
+        </div>
+    </body>
+</html>
