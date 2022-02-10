@@ -37,7 +37,7 @@ function generateTotal() {
     clearChange()
     paymentBox.value = ""
     totalHTML.innerHTML = "Total: $"
-    total = (Math.round((Math.random() * 100) * 100) / 100.0).toFixed(2)
+    total = (Math.random() * 100).toFixed(2)
     totalHTML.innerHTML += total
 }
 
