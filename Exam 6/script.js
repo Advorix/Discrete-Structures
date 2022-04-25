@@ -33,3 +33,37 @@
 
 birthdayProblem(0.5)
 
+/**
+ * At 50% probability: 
+ * Minimum people in the room: 23
+ * Probability: 0.5063230118194602    
+ * 
+ * At 70%:
+ * Minimum people in the room: 30
+ * Probability: 0.7053034120089918
+ * 
+ * At 80%:
+ * Minimum people in the room: 35
+ * Probability: 0.8134984055409928
+ * 
+ * At 90%:
+ * Minimum people in the room: 41
+ * Probability: 0.9025070829944282
+ * 
+ * At 95%:
+ * Minimum people in the room: 47
+ * Probability: 0.9543723261702582
+ * 
+ * At 98%:
+ * Minimum people in the room: 53
+ * Probability: 0.980921414805715
+ * 
+ * At 99%:
+ * Minimum people in the room: 58
+ * Probability: 0.9915487639402908
+ * 
+ * At 100% (1.0):
+ * Minimum people in the room: 154
+ * Probability: 1
+ */
+
